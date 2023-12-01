@@ -24,7 +24,7 @@ výstup bude tisknut na standardní výstup (stdout).\
 Překlad a odevzdání zdrojového souboru\
 Odevzdání: Odevzdejte zdrojový soubor sheet.c prostřednictvím informačního systému.\
 Překlad: Program překládejte s následujícími argumenty\
-**$ gcc -std=c99 -Wall - Wextra -Werror sheet.c -o sheet**
+**$ gcc -std=c99 -Wall - Wextra -Werror sheet.c -o sheet** \
 Syntax spuštění\
 Program se spouští v následující podobě: (./sheet značí umístění a název programu):\
 Úprava velikosti tabulky:\
