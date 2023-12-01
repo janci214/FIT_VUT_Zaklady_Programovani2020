@@ -40,7 +40,7 @@ nastavení je DELIM řetězec obsahující mezeru. Vícenásobný výskyt stejn�
 První znak z řetězce DELIM bude také použit jako oddělovač výstupních hodnot.\
 Úprava tabulky\
 Úpravy tabulky způsobují zvětšení či zmenšení tabulky, resp. řádků a sloupců. Příkazů pro úpravu tabulky může být\
-zadáno více. V takovém případě budou zadány jako sekvence více argumentů příkazové řádky:\
+zadáno více. V takovém případě budou zadány jako sekvence více argumentů příkazové řádky:
 
 ### Příkazy pro úpravu tabulky:
 
@@ -53,7 +53,7 @@ zadáno více. V takovém případě budou zadány jako sekvence více argument�
 • dcol C - odstraní sloupec číslo C.\
 • dcols N M - odstraní sloupce N až M (N <= M). V případě N=M se příkaz chová stejně jako dcol N.\
 Budou kontrolovány samostatné příkazy a sekvence příkazů, které nemají kolizní čísla řádků nebo sloupců (např.\
-arow irow 10, nebo dcol 5 drow 3).\
+arow irow 10, nebo dcol 5 drow 3).
 
 ### Zpracování dat
 
@@ -65,4 +65,4 @@ nejvíce jeden příkaz pro zpracování dat. Příkazy pro zpracování dat jso
 • tolower C - řetězec ve sloupci C bude převeden na malá písmena.\
 •toupper C - řetězec ve sloupce C bude převeden na velká písmena.\
 • round C - ve sloupci C zaokrouhlí číslo na celé číslo.\
-• int C- odstraní desetinnou část čísla ve sloupci C.\
+• int C- odstraní desetinnou část čísla ve sloupci C.
