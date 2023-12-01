@@ -1,6 +1,6 @@
 # FIT_VUT_Zaklady_Programovani2020
 ## Projekt 1 - Práce s textem\
-### Motivace projektu\
+### Motivace projektu
 \
 Představme si, že máme jednoduchý textový soubor obsahující tabulkové informace (například řádky s jednotlivými\
 buňkami oddělené mezerou). Představme si, že chceme spočítat součet všech hodnot ve třetím sloupci, nebo zjistit\
@@ -10,15 +10,15 @@ data do něj importovat, klikat, co chceme provést, a následně uložit. A co 
 s různými daty máme hodně? Hodil by se jednoduchý nástroj pro příkazovou řádku, kterému bychom řekli, co s\
 textovým souborem má dělat, a nástroj automaticky spustili opakovaně nad každým souborem. Nebude to sice\
 hezky "klikatelné", ale ušetří nám to spoustu práce.\
-\
+
 ### Popis projektu:\
-\
+
 Cílem projektu je vytvořit program, který bude implementovat základní operace tabulkových procesorů. Vstupem\
 programu budou textová data, zadání operací bude prostřednictvím argumentů příkazové řádky a svůj výsledek bude\
 program vypisovat na výstup.\
-\
+
 ### Detailní specifikace:\
-\
+
 Program implementujte ve zdrojovém souboru sheet.c. Vstupní data budou čtena ze standardního vstupu (stdin),\
 výstup bude tisknut na standardní výstup (stdout).\
 Překlad a odevzdání zdrojového souboru\
@@ -42,9 +42,9 @@ První znak z řetězce DELIM bude také použit jako oddělovač výstupních h
 Úprava tabulky\
 Úpravy tabulky způsobují zvětšení či zmenšení tabulky, resp. řádků a sloupců. Příkazů pro úpravu tabulky může být\
 zadáno více. V takovém případě budou zadány jako sekvence více argumentů příkazové řádky:\
-\
-### Příkazy pro úpravu tabulky:\
-\
+
+### Příkazy pro úpravu tabulky:
+
 •irow R - vloží řádek tabulky před řádek R > 0 (insert-row).\
 • arow - přidá nový řádek tabulky na konec tabulky (append-row).\
 •drow R - odstraní řádek číslo R > 0 (delete-row).\
@@ -55,9 +55,9 @@ zadáno více. V takovém případě budou zadány jako sekvence více argument�
 • dcols N M - odstraní sloupce N až M (N <= M). V případě N=M se příkaz chová stejně jako dcol N.\
 Budou kontrolovány samostatné příkazy a sekvence příkazů, které nemají kolizní čísla řádků nebo sloupců (např.\
 arow irow 10, nebo dcol 5 drow 3).\
-\
-### Zpracování dat\
-\
+
+### Zpracování dat
+
 Zpracování dat představuje úpravy obsahu jednotlivých buněk tabulky. Každé spuštění programu může obsahovat\
 nejvíce jeden příkaz pro zpracování dat. Příkazy pro zpracování dat jsou následující:\
 \
@@ -66,4 +66,4 @@ nejvíce jeden příkaz pro zpracování dat. Příkazy pro zpracování dat jso
 • tolower C - řetězec ve sloupci C bude převeden na malá písmena.\
 •toupper C - řetězec ve sloupce C bude převeden na velká písmena.\
 • round C - ve sloupci C zaokrouhlí číslo na celé číslo.\
-int C- odstraní desetinnou část čísla ve sloupci C.\
+• int C- odstraní desetinnou část čísla ve sloupci C.\
