@@ -1,6 +1,7 @@
 # FIT_VUT_Zaklady_Programovani2020
 Projekt 1 - Práce s textem\
 Motivace projektu\
+\
 Představme si, že máme jednoduchý textový soubor obsahující tabulkové informace (například řádky s jednotlivými\
 buňkami oddělené mezerou). Představme si, že chceme spočítat součet všech hodnot ve třetím sloupci, nebo zjistit\
 jejich aritmetický průměr, odebrat nějaký sloupec nebo přidat nový, který bude představovat součet dvou\
@@ -9,11 +10,15 @@ data do něj importovat, klikat, co chceme provést, a následně uložit. A co 
 s různými daty máme hodně? Hodil by se jednoduchý nástroj pro příkazovou řádku, kterému bychom řekli, co s\
 textovým souborem má dělat, a nástroj automaticky spustili opakovaně nad každým souborem. Nebude to sice\
 hezky "klikatelné", ale ušetří nám to spoustu práce.\
-Popis projektu\
+\
+Popis projektu:\
+\
 Cílem projektu je vytvořit program, který bude implementovat základní operace tabulkových procesorů. Vstupem\
 programu budou textová data, zadání operací bude prostřednictvím argumentů příkazové řádky a svůj výsledek bude\
 program vypisovat na výstup.\
-Detailní specifikace\
+\
+Detailní specifikace:\
+\
 Program implementujte ve zdrojovém souboru sheet.c. Vstupní data budou čtena ze standardního vstupu (stdin),\
 výstup bude tisknut na standardní výstup (stdout).\
 Překlad a odevzdání zdrojového souboru\
